@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  line-height: 1.5;
+  background-color: #ecf0f4;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='36' height='72' viewBox='0 0 36 72'%3E%3Cg fill-rule='evenodd'%3E%3Cg fill='%23d1dbe3' fill-opacity='0.4'%3E%3Cpath d='M2 6h12L8 18 2 6zm18 36h12l-6 12-6-12z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+nav {
+  background-color: cornflowerblue;
+  padding: 4px 16px;
+  color: rgb(255, 255, 255);
+}
+
+nav h3 {
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.card {
+  background-color: aliceblue;
+  padding: 32px;
+  margin: 32px auto;
+  max-width: 700px;
+  box-shadow: 0 0 8px lightgray;
+}
+
+.card h2 {
+  text-transform: uppercase;
+  margin-top: 0;
+  color: #3a3a3a;
+}
+
+.card img {
+  float: left;
+  margin: 0 48px;
+}
+.card p {
+  margin-bottom: 16px;
+}
+
+.highlight {
+  background-color: deepskyblue;
+}
+
+.image-row {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-around;
+}
+
+.image-row img {
+  float: initial;
+  margin: 0px;
+}
